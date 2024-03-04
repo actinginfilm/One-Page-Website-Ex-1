@@ -190,6 +190,9 @@ footer p {
 
 
 @media (max-width: 960px) {
+  .container {
+    width: 530px;
+  }
   header {
     padding: 60px 0;
   }
@@ -212,12 +215,12 @@ footer p {
   }
 
   section {
-    padding: 30px;
+    padding: 15px;
   }
 
-  .card-header img {
+  /* .card-header img {
     display: none;
-  }
+  } */
 
   .embed {
     aspect-ratio: 16/9;
